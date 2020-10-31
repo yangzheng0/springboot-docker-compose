@@ -1,8 +1,8 @@
-version: "v2"
+version: "3"
 services:
   demo:
     # 指定启动后的容器名
     container_name: demo
     build: .
     ports:
-      - "8080:8080"
+      - "18080:8080"
